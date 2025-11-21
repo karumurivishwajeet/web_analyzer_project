@@ -1,0 +1,41 @@
+{
+  "url": "https://www.wikipedia.org/",
+  "timestamp": 1763727196242,
+  "seo": {
+    "title": "Wikipedia",
+    "metaDescription": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
+    "hasH1": true
+  },
+  "linksSample": [
+    "https://en.wikipedia.org/",
+    "https://ja.wikipedia.org/",
+    "https://ru.wikipedia.org/",
+    "https://de.wikipedia.org/",
+    "https://fr.wikipedia.org/",
+    "https://es.wikipedia.org/",
+    "https://zh.wikipedia.org/",
+    "https://it.wikipedia.org/",
+    "https://pl.wikipedia.org/",
+    "https://pt.wikipedia.org/",
+    "https://ar.wikipedia.org/",
+    "https://de.wikipedia.org/",
+    "https://en.wikipedia.org/",
+    "https://es.wikipedia.org/",
+    "https://fa.wikipedia.org/",
+    "https://fr.wikipedia.org/",
+    "https://it.wikipedia.org/",
+    "https://arz.wikipedia.org/",
+    "https://nl.wikipedia.org/",
+    "https://ja.wikipedia.org/",
+    "https://pl.wikipedia.org/",
+    "https://pt.wikipedia.org/",
+    "https://ceb.wikipedia.org/",
+    "https://sv.wikipedia.org/",
+    "https://uk.wikipedia.org/",
+    "https://vi.wikipedia.org/",
+    "https://war.wikipedia.org/",
+    "https://zh.wikipedia.org/",
+    "https://ru.wikipedia.org/",
+    "https://af.wikipedia.org/"
+  ]
+}
