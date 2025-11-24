@@ -17,6 +17,7 @@
     const url = URL.createObjectURL(blob);
     const filename = `report-${new URL(location.href).hostname}-${Date.now()}.json`;
 
-    chrome.runtime.sendMessage({action: 'download', url, filename});
+    //chrome.runtime.sendMessage({action: 'download', url, filename});
+    chrome.runtime.sendMessage({action: 'openReport', report: report});
 
 })();

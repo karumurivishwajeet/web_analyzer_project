@@ -3,7 +3,7 @@
     "name": "Web Page Analyzer",
     "version": "0.1.0",
     "description": "Analyzes web pages for accessibility and SEO.",
-    "permissions": ["activeTab", "scripting", "downloads"],
+    "permissions": ["activeTab", "scripting", "downloads", "storage"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
