@@ -12,7 +12,7 @@ function renderReport(report) {
 
     summary.innerHTML = `
         <strong>URL:</strong> ${safe(report.url)} 
-        &nbsp;&nbsp; 
+        &nbsp;
         <strong>Timestamp:</strong> ${new Date(report.timestamp).toLocaleString()}
     `;
 
@@ -22,6 +22,11 @@ function renderReport(report) {
     html += `<tr><th>Title</th><td>${safe(report.seo.title)}</td></tr>`;
     html += `<tr><th>Meta Description</th><td>${safe(report.seo.metaDescription)}</td></tr>`;
     html += `<tr><th>Has H1</th><td>${report.seo.hasH1}</td></tr>`;
+    html += `</table>`;
+
+    html += '<h2>Quality Score</h2><table>';
+    html += `<tr><th>Score</th><td>${report.quality?.score ?? 'N/A'}</td></tr>`;
+    html += `<tr><th>Breakdown</th><td><pre>${JSON.stringify(report.quality?.breakdown ?? {}, null,2)}</pre></td></tr>`;
     html += `</table>`;
 
     html += '<h2>Links (sample)</h2><table><tr><th>#</th><th>Link</th></tr>';
